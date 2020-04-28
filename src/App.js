@@ -39,12 +39,12 @@ export default function App() {
   const msg = `
   Due to the increasing risks of COVID-19 and to practice social distancing, restrictions are in place that 
   only permit 10 patrons at a time. Unfortunately, the gym is at maximum capacity.
-  You must wait until someone leaves to enter this area. - SOTF-EA `;
+  You must wait until someone leaves to enter this area.`;
   const timeInMs = 5400000;
 
   return (
     <div>
-      <Header title="SOTF-EA GYM TRACKER" cleaningTimes={cleaningTimes} />
+      <Header title="GYM TRACKER" cleaningTimes={cleaningTimes} />
       <div className="container">
         <div className="row">
           <div className="col">
