@@ -12,7 +12,7 @@ export default function App() {
   const [err, setError] = useState(false);
 
   // handle user submissions
-  const handleUserSubmissions = user => {
+  const handleUserSubmissions = (user) => {
     // check for dup names
 
     // get usernames
@@ -30,12 +30,12 @@ export default function App() {
   };
 
   // allow a user to leave the gym
-  const removeUser = id => {
-    const removedUsers = users.filter(user => user.id !== id);
+  const removeUser = (id) => {
+    const removedUsers = users.filter((user) => user.id !== id);
     setUsers(removedUsers);
   };
-  // Customizable variables 
-  const cleaningTimes = ['0900', 1700];
+  // Customizable variables
+  const cleaningTimes = ["0900", 1700];
   const msg = `
   Due to the increasing risks of COVID-19 and to practice social distancing, restrictions are in place that 
   only permit 10 patrons at a time. Unfortunately, the gym is at maximum capacity.
