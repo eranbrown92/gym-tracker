@@ -11,7 +11,7 @@
     "react-countdown-now": "^2.1.2",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "underscore": "^1.10.2",
+    "underscore": "^1.12.1",
     "uuid": "^7.0.3"
   },
   "scripts": {
